@@ -88,13 +88,12 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Shubham Lahoti</Logo>
+        <Logo>BuildHyre</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
@@ -103,7 +102,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Shubham Lahoti. All rights reserved.
+          &copy; 2025 BuildHyre. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

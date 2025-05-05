@@ -13,9 +13,9 @@ const HeroSection = () => {
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
-                        <Title>Hi, I am <br /> {Bio.name}</Title>
+                        <Title>Hi, How are you? </Title>
                         <TextLoop>
-                            I am a
+                            we are
                             <Span>
                                 <Typewriter
                                     options={{
@@ -27,12 +27,16 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle style={{fontSize: "16px"}} dangerouslySetInnerHTML={{ __html: Bio.description.replace(/\n/g, '<br />') }} />
-                        <ResumeButton style={{padding: "10px"}} href={Bio.resume} target='display'>Check Resume</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-                        <Img src={HeroImg} alt="hero-image" />
-                    </HeroRightContainer>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <Img src={HeroImg} alt="hero-image" />
+    <Title style={{ marginTop: '10px', textAlign: 'center', fontSize: "26px" }}>Shubham Lahoti</Title>
+    <SubTitle style={{ fontSize: "16px", textAlign: 'center' }}>Founder</SubTitle>
+  </div>
+</HeroRightContainer>
+
                 </HeroInnerContainer>
             </HeroContainer>
         </div>

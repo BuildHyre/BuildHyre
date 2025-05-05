@@ -1,10 +1,10 @@
 export const Bio = {
-    name: "Shubham Lahoti",
+    name: "BuildHyre",
     roles: [
       "iOS App developer",
-      "Software Engineer"
+      "Android App developer"
     ],
-    description: " 👋 Hi, I'm Shubham Lahoti – a passionate iOS App Developer with over 2 years of experience in the exciting world of software engineering! 💻📱\n🌟 My expertise includes crafting sleek, high-performing apps using SwiftUI, Swift, UIKit, Core Data, SwiftData, and Combine. I specialize in building scalable, maintainable solutions with a strong focus on MVVM architecture 🛠️✨.\n🚀 One of my proudest achievements was developing and launching a fully-functional events-dating app on the App Store for a client, where I handled everything from concept to deployment. This experience honed my skills in end-to-end app development, API integration, and performance optimization.\n🔧 Beyond iOS, I’m a tech enthusiast with a knack for versatility! I’ve worked with ReactJS, JavaScript, Node.js, Express.js, and MongoDB. With a strong foundation in Data Structures and Algorithms (DSA), I excel at solving complex challenges.\n💡 Whether it's building intuitive mobile experiences or exploring full-stack solutions, I thrive on learning and adapting to new technologies to deliver impactful software solutions. Let’s create something amazing together! 🚀🔥",
+    description: " We are a passionate software development company specializing in mobile app and web development services — covering iOS, Android, and cross-platform solutions.\nBacked by a team of highly qualified and experienced developers, \nwe’re committed to delivering top-quality digital solutions at the most competitive prices. \nWhether you’re a startup, small business, or established enterprise, we help bring your ideas to life with scalable, user-friendly technology. \nWe’re currently looking to partner with: Businesses looking to build or upgrade their app or website Marketing agencies with clients needing development solutions Freelancers or consultants in the tech space who can connect us with clients (profit-sharing available) \nLet’s connect and explore how we can grow together!🚀",
     github: "https://github.com/shubhamlahoti01",
     resume:
       "https://drive.google.com/file/d/1ehYN5z65TI1X3Kxp7jr6483IDz2FK2QP/view?usp=share_link",
